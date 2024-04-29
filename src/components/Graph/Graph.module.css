@@ -60,3 +60,29 @@ div .btnGroup {
     margin-top: 10px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .customClass {
+    height: 80px;
+    width: 80px;
+  }
+
+  div .container {
+    max-width: 88%;
+    height: 300px;
+  }
+
+  div .container .graph {
+    margin: 50px;
+    margin-top: 10px;
+    padding-top: 8vh;
+  }
+
+  div .container .graph div {
+    margin-top: -5px;
+  }
+
+  div .btnGroup {
+    margin-top: -20px;
+  }
+}

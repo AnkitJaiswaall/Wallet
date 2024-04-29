@@ -43,7 +43,7 @@
   padding: auto;
 }
 .crypto-box .portfolio div .value {
-  font-size: 170%;
+  font-size: 2.5vw;
   font-weight: bold;
   color: #bbc3ce;
   margin-top: 1%;
@@ -61,7 +61,7 @@
 }
 .crypto-box .portfolio .count {
   color: #4c5968;
-  font-size: 200%;
+  font-size: 4vw;
   font-weight: bold;
 }
 .crypto-box .more img {
@@ -142,5 +142,52 @@
     height: 5vh;
     width: 15vh;
     font-size: 3.5vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .crypto-box {
+    margin: 50px;
+    padding: 4vh;
+  }
+  .crypto-box .currency .symbol {
+    width: 60px;
+    height: 60px;
+  }
+  .crypto-box .currency .symbol img {
+    margin-left: 120px;
+    height: 40px;
+    width: 40px;
+  }
+  .crypto-box .currency .symbol span {
+    margin-left: 0;
+    font-size: 30px;
+  }
+  .crypto-box .currency span {
+    font-size: 4vw;
+  }
+  .crypto-box .currency .name {
+    font-size: 5vw;
+    margin-top: 15px;
+  }
+  .crypto-box .portfolio div .value {
+    font-size: 5vw;
+  }
+  .crypto-box .portfolio div .change {
+    font-size: 3.5vw;
+    width: 110px;
+  }
+  .crypto-box .portfolio .count {
+    font-size: 7vw;
+  }
+  .crypto-box .more img {
+    height: 2.5vh;
+  }
+  .crypto-box .expandedContent .btnBuy,
+  .crypto-box .expandedContent .btnSell {
+    margin-bottom: -3px;
+    height: 5.5vh;
+    width: 17vh;
+    font-size: 3vw;
   }
 }
