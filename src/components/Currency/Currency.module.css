@@ -1,0 +1,146 @@
+.crypto-box {
+  margin: 100px;
+  border-radius: 20px;
+  margin-top: 10vh;
+  padding: 5vh;
+  background-color: white;
+}
+.crypto-box .currency {
+  display: flex;
+  justify-content: space-between;
+}
+.crypto-box .currency .symbol {
+  width: 7.5%;
+  height: 6.5%;
+  border-radius: 50%;
+  background-color: #ffa82a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crypto-box .currency .symbol img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-left: 150px;
+}
+.crypto-box .currency .symbol span {
+  color: #4c5968;
+  padding-left: 30px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.crypto-box .currency .name {
+  font-size: 400%;
+  font-weight: bold;
+  color: #bbc3ce;
+}
+.crypto-box .portfolio {
+  margin-top: 4%;
+}
+.crypto-box .portfolio div {
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+}
+.crypto-box .portfolio div .value {
+  font-size: 170%;
+  font-weight: bold;
+  color: #bbc3ce;
+  margin-top: 1%;
+}
+.crypto-box .portfolio div .change {
+  font-size: 170%;
+  font-weight: bold;
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+}
+.crypto-box .portfolio .count {
+  color: #4c5968;
+  font-size: 200%;
+  font-weight: bold;
+}
+.crypto-box .more img {
+  height: 20px;
+  margin-top: 5%;
+  margin-left: 45%;
+}
+.crypto-box .expandedContent .btnBuy,
+.crypto-box .expandedContent .btnSell {
+  background-color: #19aaf8 !important;
+  height: 50px;
+  width: 150px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 20px;
+  color: white !important;
+}
+.crypto-box .expandedContent .btnBuy:hover {
+  background-color: #1c85f3 !important;
+}
+.crypto-box .expandedContent .btnSell:hover {
+  background-color: #fe5c83 !important;
+}
+.crypto-box .expandedContent .btnSell {
+  background-color: #f860b1 !important;
+}
+
+@media (max-width: 768px) {
+  .crypto-box {
+    margin: 5vw;
+    border-radius: 20px;
+    /* margin-top: 10vh; */
+    padding: 5vh;
+    background-color: white;
+  }
+  .crypto-box .currency .symbol {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .crypto-box .currency .symbol img {
+    margin-left: 90px;
+    height: 30px;
+    width: 30px;
+  }
+  .crypto-box .currency .symbol span {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .crypto-box .currency span {
+    padding-left: 0;
+    font-size: 5vw;
+  }
+  .crypto-box .currency .name {
+    font-size: 6vw;
+    margin-top: 18px;
+  }
+  .crypto-box .portfolio div .value {
+    font-size: 5vw;
+  }
+  .crypto-box .portfolio div .change {
+    font-size: 4vw;
+    width: 70px;
+  }
+  .crypto-box .portfolio .count {
+    font-size: 8vw;
+  }
+  .crypto-box .more img {
+    height: 2vh;
+  }
+  .crypto-box .expandedContent {
+    display: flex;
+  }
+  .crypto-box .expandedContent .btnBuy,
+  .crypto-box .expandedContent .btnSell {
+    margin-bottom: -5px;
+    height: 5vh;
+    width: 15vh;
+    font-size: 3.5vw;
+  }
+}
